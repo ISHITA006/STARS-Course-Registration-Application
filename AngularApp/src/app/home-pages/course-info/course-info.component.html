@@ -1,0 +1,44 @@
+<div class = "banner">
+  <div class = "highlighter">
+      <div class="navbar">
+          <img src = "assets/images/logo.png" class = "logo">
+          <ul>
+              <li><a>Menu</a></li>
+              <li><a>Profile</a></li>
+              <li><a href = "#logout">Log Out</a></li>
+              <li><button>🌙</button></li>
+          </ul>
+      </div>
+    </div>
+<div class="search-box">
+  <div class="searchHolder">
+    <button><img width="20px" src="assets/images/searchIcon.png" > </button>
+    <input type = "text" name = "" placeholder="Type to search" [(ngModel)]="filterValue" (change)="filterModules()" (keyup)="filterModules()">
+  </div>
+</div>
+
+<div class="searchResults">
+<div class="resultsHolder">
+  <table class = "styled-table"style="border:solid 1px">
+    <tr *ngFor = "let element of filteredModules" (click)="getCourseInfo(element)">
+      <td>{{ element.NAME }}</td>
+      <td>{{ element.COURSE }}</td>
+    </tr>
+  </table>
+</div>
+</div>
+
+
+<div *ngIf="showCourseInfo">
+  <table>
+  <tr><td>{{chosenModule.NAME}}</td></tr>
+  <tr><td>{{chosenModule.COURSE}}</td></tr>
+  <tr><td>AU: {{chosenModule.AU}}</td></tr>
+  <tr><td>INDEXES: {{chosenModTotalIndexes}}</td></tr>
+  <tr><td>MAXIMUM CAPACITY: {{chosenModule.MAX}}</td></tr>
+  <tr><td>VACANCIES: {{chosenModule.VACANCIES}}</td></tr>
+</table>
+</div>
+
+
+</div>

@@ -1,0 +1,303 @@
+{
+    "COURSE": "CE2005",
+    "AU": "3.0 AU",
+    "NAME": "OPERATING SYSTEMS*",
+    "REMARK": "",
+    "PREREQUISITE": "CE1006 & CE1007 OR",
+    "INDEX_LIST": [
+        {
+            "INDEX": 10167.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "0930",
+                        "END": "1120"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE1",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "0930",
+                        "END": "1020"
+                    },
+                    "VENUE": "TR+37",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE1",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "0930",
+                        "END": "1020"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE1",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1620"
+                    },
+                    "VENUE": "SWLAB1",
+                    "REMARK": "Teaching Wk2,4,6,8,10,12",
+                    "WEEK": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "INDEX": 10168.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "0930",
+                        "END": "1120"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE2",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1030",
+                        "END": "1120"
+                    },
+                    "VENUE": "TR+15",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE2",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1030",
+                        "END": "1120"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE2",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1620"
+                    },
+                    "VENUE": "SWLAB1",
+                    "REMARK": "Teaching Wk1,3,5,7,9,11,13",
+                    "WEEK": [
+                        1,
+                        3,
+                        5,
+                        7,
+                        9,
+                        11,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "INDEX": 10169.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "0930",
+                        "END": "1120"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE3",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "1030",
+                        "END": "1120"
+                    },
+                    "VENUE": "TR+16",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE3",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "1030",
+                        "END": "1120"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE3",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1620"
+                    },
+                    "VENUE": "SPL",
+                    "REMARK": "Teaching Wk1,3,5,7,9,11,13",
+                    "WEEK": [
+                        1,
+                        3,
+                        5,
+                        7,
+                        9,
+                        11,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "INDEX": 10497.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "0930",
+                        "END": "1120"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE4",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "1130",
+                        "END": "1220"
+                    },
+                    "VENUE": "TR+9",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE4",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "1130",
+                        "END": "1220"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE4",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1620"
+                    },
+                    "VENUE": "SPL",
+                    "REMARK": "Teaching Wk2,4,6,8,10,12",
+                    "WEEK": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12
+                    ]
+                }
+            ]
+        }
+    ]
+}

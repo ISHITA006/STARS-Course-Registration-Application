@@ -1,0 +1,71 @@
+<div class="row">
+  <div class="column" style="background-color:#FFB695;">
+      <h2 style="text-align:center">Add Course</h2>
+
+      <label for="">Load Plan</label>
+        <select name="loadPlan" id="loadPlan" [(ngModel)]="loadPlan" (change)="loadChosenPlan()" >
+          <option value=0></option>
+          <option value=1>Plan 1</option>
+          <option value=2>Plan 2</option>
+          <option value=3>Plan 3</option>
+          <option value=4>Plan 4</option>
+          <option value=5>Plan 5</option>
+        </select>         
+
+      <table class="styled-table" style="margin-left:13%;">
+          <body>
+              <tr>
+                  <td>Course Code</td>
+                  <td>Course Index</td>
+                  <td>Add/Remove</td>
+              </tr>
+              <tr>
+                  <td>
+                      <input class="form-control" type="text" id="newAttributeCode" [(ngModel)]="newAttribute[0]" name="newAttributeCode" placeholder="Example: CE2006" />
+                  </td>
+                  <td>
+                      <input class="form-control" type="text" id="newAttributeIdx" [(ngModel)]="newAttribute[1]" name="newAttributeIdx" placeholder="Example: 123456"/>
+                  </td>
+                  <td>
+                      <button class="btn btn-default" type="button" (click)="addArrayValue()">Add</button>
+                  </td>
+              </tr>
+              
+              <tr *ngFor="let course of addCoursesArray; let i = index">
+                  <td>
+                      <span>{{course[0]}}</span> 
+                  </td>
+                  <td>
+                      <span>{{course[1]}}</span>
+                  </td>
+                  <td>
+                      <button class="btn btn-default" type="button" (click)="deleteArrayValue(i)">Remove</button>
+                  </td>
+              </tr>
+          </body>
+      </table>
+      <button class="action" (click)="testAdd()">Add Course(s)</button> 
+  </div>
+  <div class="column" style="background-color:#96D1CD;">
+      <h2 style="text-align:center">Drop Course(s)</h2>
+      <table class="styled-table" style="margin-left:13%;">
+          <tr>
+              <td>Course Code</td>
+              <td>Course Index</td>
+          </tr>
+          <tr *ngFor="let course of registeredCoursesArray; let i = index">
+              <td>
+                  <span>{{course[0]}}</span> 
+              </td>
+              <td>
+                  <span>{{course[1]}}</span>
+              </td>
+              <td>
+                  <input type="checkbox" (click)="toDrop($event, i)">
+              </td>
+          </tr>
+      </table>
+      
+      <button class="action" (click)="testDrop()">Drop Course(s)</button> 
+  </div>
+</div>

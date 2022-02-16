@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:helvetica;
+    text-decoration: bold;
+    border: solid 0px black;
+    color:white;
+    }
+
+.holder{
+    width:100%;
+}
+
+  .banner{
+    width:100%;
+    height: 110vh;
+    background-position: center;
+    background: linear-gradient(79deg, rgba(2,0,36,1) 0%, rgba(62,62,84,1) 48%);
+  }
+
+  .highlighter{
+    background-color:rgba(210,100,150, 0.25);
+    transition:2s;
+  }
+
+
+  .highlighter:hover{
+    background-color:rgba(210,100,150, 0.95);
+    transition:2s;
+  }
+
+
+  .navbar{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .logo{
+    width:120px;
+    cursor:pointer;
+  }
+
+
+  .navbar ul li{
+    list-style-type:none;
+    display:inline-flex;
+    margin: 0 20px;
+    position: relative;
+
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color:#fff;
+    text-transform:uppercase;;
+  }
+  .navbar ul li::after{
+    content:  '';
+    height: 3px;
+    width:0%;
+    background: #009688;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+  }
+  .navbar ul li:hover::after{
+    width:100%;
+  }
+
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background: linear-gradient(291deg, rgba(92,19,95,0.7488037451308649) 51%, rgba(115,218,85,1) 95%);
+
+}
+
+.styled-table tbody tr:nth-of-type(odd){
+    background: linear-gradient(291deg, rgba(176,34,113,0.7488037451308649) 51%, rgba(115,218,85,1) 95%);
+
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}

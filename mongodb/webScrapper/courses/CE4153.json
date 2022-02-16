@@ -1,0 +1,69 @@
+{
+    "COURSE": "CE4153",
+    "AU": "3.0 AU",
+    "NAME": "BLOCKCHAIN TECHNOLOGY",
+    "REMARK": "",
+    "PREREQUISITE": "CE1007 & CE2001 & MH1812 OR",
+    "INDEX_LIST": [
+        {
+            "INDEX": 10215.0,
+            "REGISTERED": 0,
+            "VACANCIES": 10,
+            "MAX": 10,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SC4",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": 1230,
+                        "END": 1320
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "SEM",
+                    "GROUP": "SC4",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": 1130,
+                        "END": 1220
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                }
+            ]
+        }
+    ]
+}

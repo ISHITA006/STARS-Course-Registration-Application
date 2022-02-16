@@ -1,0 +1,164 @@
+{
+    "CE2006":{
+        "id":"CE2006",
+        "10172":{
+            "LEC/STUDIO":[
+                ["CE2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CE2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SE1", "TUE", 1030, 1120, "ONLINE", "Teaching Wk2"],
+                ["SE1", "TUE", 1030, 1120, "TR+33", "Teaching Wk3-13"]
+            ],
+            "LAB":[
+                ["SE1", "TUE", 1430, 1620, "SWLAB3", "Teaching Wk1,3,5,7,9,11,13"]
+            ]
+        },
+        "10173":{
+            "LEC/STUDIO":[
+                ["CE2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CE2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SE2", "TUE", 930, 1020, "ONLINE", "Teaching Wk2"],
+                ["SE2", "TUE", 930, 1020, "TR+19", "Teaching Wk3-13"]
+            ],
+            "LAB":[
+                ["SE2", "TUE", 1430, 1620, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        },
+        "10174":{
+            "LEC/STUDIO":[
+                ["CE2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CE2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SE3", "FRI", 1530, 1620, "ONLINE", "Teaching Wk2"],
+                ["SE3", "FRI", 1530, 1620, "TR+7", "Teaching Wk3-13"]
+            ],
+            "LAB":[
+                ["SE3", "WED", 1430, 1620, "SWLAB3", "Teaching Wk1,3,5,7,9,11,13"]
+            ]
+        },
+        "10496":{
+            "LEC/STUDIO":[
+                ["CE2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CE2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SE4", "FRI", 1030, 1120, "ONLINE", "Teaching Wk2"],
+                ["SE4", "FRI", 1030, 1120, "TR+37", "Teaching Wk3-13"]
+            ],
+            "LAB":[
+                ["SE4", "WED", 1430, 1620, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        }
+    },
+    "CZ2006":{
+        "id":"CZ2006",
+        "10320":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SSP1", "TUE", 1430, 1520, "LHN-TR+15", "Teaching Wk3-13"],
+                ["SSP1", "TUE", 1430, 1520, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SSP1", "WED", 1030, 1220, "SWLAB3", "Teaching Wk3,5,7,9,11,13"]
+            ]
+        },
+        "10321":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SSP2", "TUE", 1530, 1620, "TRX44", "Teaching Wk3-13"],
+                ["SSP2", "TUE", 1530, 1620, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SSP2", "WED", 1030, 1220, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        },
+        "10322":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SSP3", "MON", 1030, 1120, "TR+33", "Teaching Wk3-13"],
+                ["SSP3", "MON", 1030, 1120, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SSP3", "FRI", 1230, 1420, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        },
+        "10323":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SSP4", "MON", 1430, 1520, "TR+8", "Teaching Wk3-13"],
+                ["SSP4", "MON", 1430, 1520, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SSP4", "FRI", 1230, 1420, "SWLAB3", "Teaching Wk3,5,7,9,11,13"]
+            ]
+        },
+        "10324":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SSP5", "TUE", 1030, 1120, "TR+3", "Teaching Wk3-13"],
+                ["SSP5", "TUE", 1030, 1120, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SSP5", "MON", 1430, 1620, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        },
+        "10432":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["REP", "THU", 930, 1020, "TR+4", "Teaching Wk3-13"],
+                ["REP", "THU", 930, 1020, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["REP", "FRI", 830, 1020, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        },
+        "10491":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SS10", "WED", 1430, 1520, "TR+17", "Teaching Wk3-13"],
+                ["SS10", "WED", 1430, 1520, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SS19", "TUE", 1030, 1220, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        },
+        "10498":{
+            "LEC/STUDIO":[
+                ["CS2", "MON", 930, 1020, "ONLINE", "NIL"],
+                ["CS2", "THU", 1330, 1420, "ONLINE", "NIL"]
+            ],
+            "TUT":[
+                ["SS11", "TUE", 1530, 1620, "TR+16", "Teaching Wk3-13"],
+                ["SS11", "TUE", 1530, 1620, "ONLINE", "Teaching Wk2"]
+            ],
+            "LAB":[
+                ["SS11", "WED", 1230, 1420, "SWLAB3", "Teaching Wk2,4,6,8,10,12"]
+            ]
+        }
+    }
+}

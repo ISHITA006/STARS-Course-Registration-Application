@@ -1,0 +1,152 @@
+{
+    "COURSE": "TESTCLASH",
+    "AU": "3.0 AU",
+    "NAME": "TESTCLASH",
+    "REMARK": "",
+    "PREREQUISITE": "CE1007 OR",
+    "INDEX_LIST": [
+        {
+            "INDEX": 9999,
+            "REGISTERED": 0,
+            "VACANCIES": 0,
+            "MAX": 10,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "EMPTY TEST",
+                    "GROUP": "EMPTY TEST",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "0001",
+                        "END": "2359"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "TYPE": "EMPTY TEST",
+                    "GROUP": "EMPTY TEST",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "0001",
+                        "END": "2359"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "TYPE": "EMPTY TEST",
+                    "GROUP": "EMPTY TEST",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": "0001",
+                        "END": "2359"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "TYPE": "EMPTY TEST",
+                    "GROUP": "EMPTY TEST",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "0001",
+                        "END": "2359"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "TYPE": "EMPTY TEST",
+                    "GROUP": "EMPTY TEST",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "0001",
+                        "END": "2359"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14
+                    ]
+                }
+            ]
+        }
+    ]
+}

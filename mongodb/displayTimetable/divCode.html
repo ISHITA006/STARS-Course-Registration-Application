@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+  <script type="text/javascript">
+  /*
+
+    1. Obtain student_id in a variable
+    2. Search for the student_id in mongo_DB
+    3. For the student, obtain 'registered_courses'
+    4. Search for the course_name in the module.js database
+    5. After finding the course_name, search for the index in the index_list
+    6. After finding index, for each activity, gather the day, obtain DAY row[]
+    7. After finding day, obtain the time, calculate which cells which will be taken
+    8. Write to the cells with the code, color, name of the course,
+*/
+
+    // creating a data structure. it will be an array which contains an array
+        // day[number of columns][number of rows]
+        // day[7][16]
+    // since all timetables have the same number of rows and columns, we can declare rows and columns as constants
+    let global_rows = 16;
+    let global_cols = 7;
+
+    // The following function creates the timetable array.
+    // The timetable array contains the text data which will be stored in each cells
+    function makeTTarray(cols, rows){
+      var arr = new Array(cols); //make an array with columns
+      for(var i = 0 ; i < arr.length; i++ ){
+        arr[i] = new Array(rows);
+      }
+
+      return arr;
+    }
+
+
+    //using the function, lets initialize the TT array structure
+    var DAY = makeTTarray(global_cols, global_rows);
+
+    // lets predict a test case
+
+    // user has registered CE1106
+    // index is 69420
+    // the following index has 3 activities :
+      // the three activities are LEC, TUT, LAB;
+        // LEC : DAY = MON ; TIME[START] = 1430 ; TIME[END] = 1630
+        // TUT : DAY = WED ; TIME[START] = 0930 ; TIME[END] = 1030
+        // LAB : DAY = FRI ; TIME[START] = 1730 ; TIME[END] = 2130
+
+    // manual calculation for lecture case;
+      // day = mon, therefore, we are concerned with DAY[1] Array
+      // start time is 1430
+      // so the first coloured cell is DAY[1][6]
+      // end time is 1630
+      // so the second coloured cell is DAY[1][9]
+      // so I need  a function which converts the day into row and time into columns
+
+
+function colFinder(day_of_week){
+    var col;
+    switch (day_of_week) {
+      case 'MON':
+        col = 1;
+        break;
+      case 'TUE':
+        col = 2;
+        break;
+      case 'WED':
+        col = 3;
+        break;
+      case 'THU':
+        col = 4;
+        break;
+      case 'FRI':
+        col = 5;
+        break;
+      case 'SAT':
+        col = 6;
+        break;function colFinder(day_of_week){
+    var col;
+    switch (day_of_week) {
+      case 'MON':
+        col = 1;
+        break;
+      case 'TUE':
+        col = 2;
+        break;
+      case 'WED':
+        col = 3;
+        break;
+      case 'THU':
+        col = 4;
+        break;
+      case 'FRI':
+        col = 5;
+        break;
+    }
+    return col;
+}
+
+
+
+
+function rowFinder(s_time){
+		return ((parseInt(s_time, 10) -30) / 100)-8+1;
+	}
+
+function set_Header(DAY){
+		const heading = ["TIME/DAY", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+		for(var i = 0 ; i < global_cols; i++){
+			DAY[i][0] = "<td>"+heading[i]+"</td>";
+		}
+		return DAY;
+}
+
+
+function set_LEFT_TIMES(DAY){
+		const left_row = ["TIME/DAY", "830", "0930", "1030", "1130", "1230", "1330", "1430", "1530", "1630", "1730", "1830", "1930", "2030", "2130", "2230"];
+
+		for(var i = 0 ; i < global_rows; i++){
+			DAY[0][i] = "<td>"+left_row[i]+"</td>";
+		}
+
+
+		return DAY;
+}
+
+
+
+
+function initializer(DAY){
+
+	for(var i = 0 ; i < global_cols; i++){
+		for(var j = 1; j < global_rows; j++){
+			DAY[i][j] = "<td>Hello</td>"
+		}
+	}
+
+	DAY = set_Header(DAY);
+	DAY = set_LEFT_TIMES(DAY);
+
+	return DAY;
+}
+
+
+
+
+	initializer(DAY);
+    var table = '';
+    var rows = 15;
+    var columns = 6
+    for(var r = 0 ; r < rows ; r++){
+      table+='<tr>';
+      for(var c = 0 ; c <columns; c++){
+        table+='<td>';
+        table+=DAY[c][r];
+        table+='</td>';
+      }
+      table+='</tr>';
+    }
+    document.write('<table border="1">'+table+'</table>');
+
+
+  </script>
+
+
+
+  </body>
+</html>

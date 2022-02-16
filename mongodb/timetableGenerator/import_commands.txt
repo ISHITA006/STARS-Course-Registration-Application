@@ -1,0 +1,1 @@
+FOR %i IN (C:\courses\*.json) DO mongoimport --db stars_plus_plus --collection courseInfo --type json --file %i

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            box-sizing: border-box;
+        }
+        
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .styled-table {
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 350px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .styled-table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        .styled-table th,
+
+        .styled-table td {
+            padding: 12px 15px;
+        }
+
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+
+        .action {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 3px 290px;
+            cursor: pointer;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="column" style="background-color:#FFB695;">
+            <h2 style="text-align:center">Add Course</h2>
+            <div>
+                <select name="Select Plan" id="plan-select">Select Plan</select>
+                    <option value="Plan 1"></option>
+                    <option value="Plan 2"></option>
+                    <option value="Plan 3"></option>
+            </div>
+            <table class="styled-table" style="margin-left:13%;" id="tableId">
+                <tr>
+                    <td>Course Code</td>
+                    <td>Course Index</td>
+                    <td>Add/Remove course</td>
+                </tr>
+                
+                <tr>
+                    <td><input type='text' id="Code" placeholder='Example: CZ2001'></td>
+                    <td><input type='text' id="Index" placeholder='Example: 19110'></td>
+                    <td><button onclick=addRow()>Add new item</button></td>
+                </tr>
+                <script>
+                    // src = 'jquery.js' // Not this one. Google "jquery cdn" and copy the string that contains the <script> tag.
+                    function addRow() {
+                        if (document.getElementById("Code").value == "" || document.getElementById("Index").value == ""){
+                            alert("One or more required fields are missing. Please check.") // in case user inputs empty string.
+                        }else {
+                            var table = document.getElementById("tableId");
+                            var x = document.getElementById("tableId").rows.length;
+                            var row = table.insertRow(x);
+                            var cell1 = row.insertCell(0);
+                            var cell2 = row.insertCell(1);
+                            var cell3 = row.insertCell(2);
+                
+                            cell1.innerHTML = document.getElementById("Code").value;
+                            cell2.innerHTML = document.getElementById("Index").value;
+                            cell3.innerHTML = '<input type="button" onclick="deleteRow(this)" value="Remove course">';
+                            document.getElementById("Code").value = "" // reset input fields after adding to avoid re-clicking.
+                            document.getElementById("Index").value = ""
+                        }
+                        
+                    }
+                    function deleteRow(r) {
+                        var i = r.parentNode.parentNode.rowIndex;
+                        document.getElementById("tableId").deleteRow(i);
+                    }
+                </script>
+            </table>
+            <button class="action" onclick="addCourses()">Add course(s)</button>
+        </div>
+        <div class="column" style="background-color:#96D1CD;">
+            <h2 style="text-align:center">Drop Course(s)</h2>
+            <table class="styled-table" style="margin-left:13%;">
+                <tr>
+                    <td>Course Code</td>
+                    <td>Course Index</td>
+                    <td>Drop course(s)</td>
+                </tr>
+                <tr>
+                    <td>Example: CE2002</td>
+                    <td>Example: 19110</td>
+                    <td><input type="checkbox" style="padding: 50%;"></td>
+                </tr>
+                <tr>
+                    <td>Example: CE2005</td>
+                    <td>Example: 19111</td>
+                    <td><input type="checkbox" style="padding: 50%;"></td>
+                </tr>
+                <tr>
+                    <td>Example: CE2006</td>
+                    <td>Example: 19112</td>
+                    <td><input type="checkbox" style="padding: 50%;"></td>
+                </tr>
+                <script>
+                    var courses = ['CE2002', 'CE2005', 'CE2006', 'CE2107'];
+                    var indexes = ['1', '2', '3', '4'];
+
+                    for (let i = 0; i < courses.length; i++) {
+                        let course = courses[i];
+                        let idx = indexes[i];
+                        var course_command = '<td>' + course + '</td>';
+                        var idx_command = '<td>' + idx + '</td>';
+
+                        document.write("<tr id =" + i + ">");
+                        document.write(course_command);
+                        document.write(idx_command);
+                        document.write("<td><input type='checkbox' style='padding: 50%;''></td>")
+                        document.write("</tr>");
+                    }
+
+                    function dropCourses() {
+                        var ids = [0, 1, 2]
+                        for (let i = 0; i < ids.length; i++) {
+                            document.getElementById(ids[i]).remove();
+                        }
+                    }
+                </script>
+            </table>
+            <button class="action" onclick="dropCourses()">Drop course(s)</button>
+        </div>
+    </div>
+</body>
+
+</html>

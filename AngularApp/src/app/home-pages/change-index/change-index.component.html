@@ -1,0 +1,40 @@
+
+<div>
+<table>
+    <thead>
+        <tr>
+            <th>Course</th>
+            <th>Index</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let course of registeredCoursesArray"  (click)="getCourseIndexDetails(course)">
+        <td>{{course[0]}}</td>
+        <td>{{course[1]}}</td>
+    </tr>
+</table>
+</div>
+
+<div *ngIf="getDetail">
+    
+    <p>Chosen module: {{selectedCourse}}</p>
+    <p>Current Index: {{currentIndex}}</p>
+
+    <label for="">Choose new index</label>
+    <select [(ngModel)]="desiredIndex" >
+        <option value=0></option>
+        <option *ngFor ="let index of desiredIndexList"  [value]="index">{{index}}
+        </select>
+        <button (click)="changeIndex()">Change Index</button>
+</div>
+
+<div *ngIf="error!==''">
+    <div style="padding: 5px; color: red">
+        <p>{{error}}</p>
+    </div>
+    <p>Do you wish to update your index swap request for chosen module?</p>
+    <button (click)="overwrite = true; checkOverwriteChange()">Yes</button>
+    <button (click)="overwrite = false; checkOverwriteChange()">No</button>
+</div>
+
+
+

@@ -1,0 +1,212 @@
+
+    <div class = "banner">
+
+
+
+    <!--Background image-->
+    
+    
+    
+    <div class = "highligher">
+    
+    
+    
+    <div class = "navbar">
+    
+    
+    
+    <div class="navbar">
+    
+    
+    
+    <!--img src="logo.jpg" class="logo"-->
+    
+    
+    
+    <ul>
+    
+    
+    
+    <li><a href="#menu">Menu</a></li>
+    
+    
+    
+    <li><a href="#profile">Profile</a></li>
+    
+    
+    
+    <li><a href="#logout">Log Out</a></li>
+    
+    
+    
+    <li><button>🌙</button></li>
+    
+    
+    
+    </ul>
+    
+    
+    
+    </div>
+    
+    
+    
+    </div>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    <div class = "heading">
+    
+    
+    
+    <h1>S T A R S + +</h1>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    <div style="padding: 15px">
+    
+    
+    
+    <h2>Login</h2>
+    
+    
+    
+    
+    
+    <form #loginForm= "ngForm" (ngSubmit)="login()">
+    
+    
+    
+    
+    
+    <div class = "loginDialog">
+    
+    
+    
+    
+    
+    <div style="padding: 10px" class = "login">
+    
+    
+    
+    <label for="">Email </label>
+    
+    
+    
+    <input type="text" name="email" id="email" [(ngModel)]="email" placeholder="Enter your NTU email ID" required />
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    <div style="padding: 10px" class="password">
+    
+    
+    
+    <label for="">Password </label>
+    
+    
+    
+    <input type="text" name="password" id="password" [(ngModel)]="password" placeholder="Enter your password" required />
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    <div style="padding: 5px; color: red" *ngIf="invalid">
+    
+    
+    
+    <p>{{error}}</p>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    <div style="padding: 10px" class = "press">
+    
+    
+    
+    <button type="Submit" [disabled]="!loginForm.valid">Login</button>
+    
+    
+    
+    </div>
+    
+    
+    
+    
+    
+    </div>
+    
+    
+    
+    </form>
+    
+    
+    
+    
+    
+    
+    <router-outlet></router-outlet>
+    
+    
+    
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--h1>Welcome to STARS++</h1>
+<div style="padding: 15px">
+  <h2>Login</h2>
+</div>
+<form #loginForm= "ngForm" (ngSubmit)="login()">
+
+  <div style="padding: 10px">
+    <label for="">Email: </label>
+    <input type="text" name="email" id="email" [(ngModel)]="email" placeholder="Enter your NTU email ID" required /></div>
+
+    <div style="padding: 10px">
+      <label for="">Password: </label>
+      <input type="text" name="password" id="password" [(ngModel)]="password" placeholder="Enter your password" required /></div>
+     
+    <div style="padding: 5px; color: red" *ngIf="invalid">
+      <p>{{error}}</p>
+    </div>
+
+<button type="Submit" [disabled]="!loginForm.valid">Login</button>
+
+</form-->

@@ -1,0 +1,347 @@
+{
+    "COURSE": "CE2101",
+    "AU": "3.0 AU",
+    "NAME": "ALGORITHM DESIGN & ANALYSIS*",
+    "REMARK": "",
+    "PREREQUISITE": "CE1107 & MH1812",
+    "INDEX_LIST": [
+        {
+            "INDEX": 10151.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1230",
+                        "END": "1320"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1520"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE1",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1520"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE1",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1520"
+                    },
+                    "VENUE": "LHN-TR+18",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE1",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1620"
+                    },
+                    "VENUE": "HWLAB1",
+                    "REMARK": "Teaching Wk2,4,6,8,10,12",
+                    "WEEK": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "INDEX": 10152.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1230",
+                        "END": "1320"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1520"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE2",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": "1330",
+                        "END": "1420"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE2",
+                    "DAY": "WED",
+                    "TIME": {
+                        "START": "1330",
+                        "END": "1420"
+                    },
+                    "VENUE": "TR+33",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE2",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1620"
+                    },
+                    "VENUE": "HWLAB2",
+                    "REMARK": "Teaching Wk1,3,5,7,9,11,13",
+                    "WEEK": [
+                        1,
+                        3,
+                        5,
+                        7,
+                        9,
+                        11,
+                        13
+                    ]
+                }
+            ]
+        },
+        {
+            "INDEX": 10153.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1230",
+                        "END": "1320"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1520"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE3",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "1530",
+                        "END": "1620"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE3",
+                    "DAY": "THU",
+                    "TIME": {
+                        "START": "1530",
+                        "END": "1620"
+                    },
+                    "VENUE": "TR+7",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE3",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1030",
+                        "END": "1220"
+                    },
+                    "VENUE": "HWLAB1",
+                    "REMARK": "Teaching Wk2,4,6,8,10,12",
+                    "WEEK": [
+                        2,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12
+                    ]
+                }
+            ]
+        },
+        {
+            "INDEX": 10154.0,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "MON",
+                    "TIME": {
+                        "START": "1230",
+                        "END": "1320"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "LEC/STUDIO",
+                    "GROUP": "CE2",
+                    "DAY": "FRI",
+                    "TIME": {
+                        "START": "1430",
+                        "END": "1520"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None"
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE4",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1530",
+                        "END": "1620"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "Teaching Wk2",
+                    "WEEK": [
+                        2
+                    ]
+                },
+                {
+                    "TYPE": "TUT",
+                    "GROUP": "SE4",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1530",
+                        "END": "1620"
+                    },
+                    "VENUE": "TR+19",
+                    "REMARK": "Teaching Wk3-13",
+                    "WEEK": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ]
+                },
+                {
+                    "TYPE": "LAB",
+                    "GROUP": "SE4",
+                    "DAY": "TUE",
+                    "TIME": {
+                        "START": "1030",
+                        "END": "1220"
+                    },
+                    "VENUE": "HWLAB2",
+                    "REMARK": "Teaching Wk1,3,5,7,9,11,13",
+                    "WEEK": [
+                        1,
+                        3,
+                        5,
+                        7,
+                        9,
+                        11,
+                        13
+                    ]
+                }
+            ]
+        }
+    ]
+}

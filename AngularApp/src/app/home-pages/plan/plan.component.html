@@ -1,0 +1,42 @@
+<div  *ngIf="TTgenerator === false">
+  <table>
+    <tr *ngFor="let n of modules">
+        <th scope="row">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="n._id"
+            [checked]="n.select"
+            (change)="onChangeMOD($event)"
+          />
+        </th>
+        <td>{{ n.COURSE }}</td>
+        <td>{{ n.NAME }}</td>
+
+      </tr>
+</table>
+<button (click)="generateTimetables()" *ngIf="TTgenerator === false">Generate Timetables</button>
+</div>
+
+<div *ngIf="TTgenerator === true">
+<button (click)=showPlans() *ngIf="TTgenerator === true">See Possible Plans</button>
+
+<div [innerHTML]="currentHtml" *ngIf="TTgenerator === true"></div>
+
+<div>
+<button (click)=loadPrevCombination() *ngIf="TTgenerator === true" [disabled]="prevDisable">Previous</button>
+<button (click)=loadNextCombination() *ngIf="TTgenerator === true" [disabled]="nextDisable">Next</button>
+</div>
+
+
+<label for="">Save as Plan</label>
+            <select name="savePlan" id="savePlan" [(ngModel)]="savePlan" (change)="saveCurrentPlan()" *ngIf="TTgenerator === true">
+              <option value=0></option>
+              <option value=1>Plan 1</option>
+              <option value=2>Plan 2</option>
+              <option value=3>Plan 3</option>
+              <option value=4>Plan 4</option>
+              <option value=5>Plan 5</option>
+            </select>
+
+</div>

@@ -1,0 +1,41 @@
+<div class = "banner">
+    <div class = "highlighter">
+        <div class="navbar">
+            <img src = "assets/images/logo.png" class = "logo">
+            <ul>
+                <!--<li><a (click) = "routeToHome()">Menu</a></li>
+                <li><a (click) = "routeToHelp()">Profile</a></li>-->
+                <li><a href = "#menu">Menu</a></li>
+                <li><a href = "#profile">Profile</a></li>
+                <li><a href = "#logout">Log Out</a></li>
+                <li><button>🌙</button></li>
+            </ul>
+        </div>
+    </div><div class  ="holder">
+<table class="styled-table">
+    <tbody><tr>
+        <td>Student Name</td>
+        <td>{{curentStudent.NAME}}</td>
+    </tr>
+
+    <tr>
+        <td>AU</td>
+        <td>{{curentStudent.TOTAL_AU}}</td>
+    </tr>
+
+    <table *ngIf="curentStudent.REGISTERED_COURSES !== (null || undefined)">
+        <thead><tr>
+            <td>Course</td>
+            <td>Name</td>
+            <td>Index</td>
+        </tr></thead>
+        <tr *ngFor = "let course of registered">
+            <td>{{course[0]}}</td>
+            <td>{{course[1]}}</td>
+            <td>{{course[2]}}</td>
+        </tr>
+    </table>
+</tbody>
+</table>
+</div>
+</div>

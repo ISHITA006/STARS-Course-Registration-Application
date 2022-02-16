@@ -1,0 +1,14 @@
+{
+  "NAME": "Ishita Sarah",
+  "USER_ID": "ISHITA008",
+  "PASSWORD": "password",
+  "TOTAL AU": 6,
+  "REGISTERED_COURSES": {
+    "CE2002": 10157,
+    "CE2005": 10167,
+    "CE2006": 10172,
+    "CE2100": 10145,
+    "CE2101": 10151,
+    "CE2107": 10178
+  }
+}

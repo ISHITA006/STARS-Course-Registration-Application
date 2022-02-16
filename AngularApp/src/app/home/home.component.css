@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+  
+  }
+
+
+  .banner{
+    width:100%;
+    height:400vh;
+    /*background-image:linear-gradient(rgba(255,192,100,0.75),rgba(32,144,50,0.75)), url(background.jpg);*/
+    background-size:cover;
+    background-position: center;
+  }
+
+  .highlighter:hover{
+    background-color:rgba(100,100,23, 0.50);
+    transition:4s;
+  }
+
+
+  .navbar{
+    width:85%;
+    margin:auto;
+    padding: 35px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .logo{
+    width:120px;
+    cursor:pointer;
+  }
+
+
+  .navbar ul li{
+    list-style-type:none;
+    display:inline-flex;
+    margin: 0 20px;
+    position: relative;
+
+  }
+  .navbar ul li a {
+    text-decoration: none;
+    color:#fff;
+    text-transform:uppercase;;
+  }
+  .navbar ul li::after{
+    content:  '';
+    height: 3px;
+    width:0%;
+    background: #009688;
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+  }
+  .navbar ul li:hover::after{
+    width:100%;
+  }
+
+
+  .heading h1{
+    text-align:center;
+    font-family:monospace;
+    font-size:90px;
+  }
+  
+
+  .options{
+    margin:auto;
+    width:80%;
+    height:40vh;
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color:rgba(34,125,54, 0.3);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+  .secondoptions{
+    margin:auto;
+    width:80%;
+    margin-top:40px;
+    margin-bottom:40px;
+    background-color:rgba(34,125,54, 0.3);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+  }
+
+
+  .options .button{
+    background-color:rgba(44,73,100, 0.7);
+    width:200px;
+    margin:40px;
+    border:3px dotted red;
+    text-align:center;
+    min-height:200px;
+    align-items:center;
+}
+
+.secondoptions .button{
+    background-color:rgba(44,73,100, 0.7);
+    width:200px;
+    margin:40px;
+    border:3px dotted red;
+    text-align:center;
+    min-height:200px;
+    align-items:center;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondoptions button{
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*align items*/

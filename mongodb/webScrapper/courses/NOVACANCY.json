@@ -1,0 +1,31 @@
+{
+    "COURSE": "NOVACANCY",
+    "AU": "3.0 AU",
+    "NAME": "No Vacancy test",
+    "REMARK": "",
+    "PREREQUISITE": "CE1007 OR",
+    "INDEX_LIST": [
+        {
+            "INDEX": 8888.0,
+            "REGISTERED": 10,
+            "VACANCIES": 0,
+            "MAX": 10,
+            "ACTIVITIES": [
+                {
+                    "TYPE": "EMPTY TEST",
+                    "GROUP": "EMPTY TEST",
+                    "DAY": "EMPTY TEST",
+                    "TIME": {
+                        "START": "0000",
+                        "END": "0000"
+                    },
+                    "VENUE": "ONLINE",
+                    "REMARK": "None",
+                    "WEEK": [
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
